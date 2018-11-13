@@ -1,2 +1,2 @@
-# api
+# Api
 JSON API for Thousand
