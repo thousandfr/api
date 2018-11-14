@@ -29,6 +29,8 @@ defmodule Thousand.MixProject do
       {:ecto, "~> 3.0.0"},
       {:ecto_sql, "~> 3.0.0"},
       {:postgrex, "~> 0.14"},
+      {:comeonin, "~> 4.0"},
+      {:pbkdf2_elixir, "~> 0.12"}
     ]
   end
 end
