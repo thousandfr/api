@@ -2,6 +2,15 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
+config :thousand, Thousand.Repo,
+  database: "thousand_repo",
+  username: "thousand",
+  password: "thousand-password",
+  hostname: "localhost"
+
+config :thousand,
+  ecto_repos: [Thousand.Repo]
+
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
 # file won't be loaded nor affect the parent project. For this reason,
